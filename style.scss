@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./Asset/windows_11_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: 100%;
+}
+
+.bar_nav_bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 48px;
+  background-color: hsla(0, 0%, 95%, 0.85);
+}
