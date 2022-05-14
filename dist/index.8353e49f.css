@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url("windows_11_background.bc5336b9.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bar_nav_bottom {
+  width: 100vw;
+  height: 48px;
+  background-color: #f2f2f2d9;
+  position: fixed;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=index.8353e49f.css.map */
