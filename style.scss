@@ -75,16 +75,16 @@ section {
     height: 38px;
     padding: 6px;
     border-radius: 4px;
+    figure {
+      width: 1.5rem;
+      height: 1.5rem;
+      img {
+        height: 100%;
+      }
+    }
   }
   .bar_nav_bottom:hover {
     background: hsl(228, 18.5%, 94.7%);
-  }
-  figure {
-    width: 1.5rem;
-    height: 1.5rem;
-    img {
-      height: 100%;
-    }
   }
 }
 
@@ -106,13 +106,15 @@ section {
 }
 
 .bar_bottom_end {
-  display: flex;
-  margin: 3px;
   gap: 0.375rem;
+  margin: 3px;
+  display: flex;
+  height: 80%;
+  align-items: center;
 
   figure {
     width: 16px;
-    height: 100%;
+
     img {
       width: 100%;
     }
@@ -122,8 +124,48 @@ section {
 .bar_bottom_svg {
   height: 100%;
   margin-right: 12px;
+  display: flex;
+  align-items: center;
 }
 .battery::before {
   font: normal normal normal 14px/1 FontAwesome;
   content: "\f240";
+}
+
+.icon_wifi_song_battery {
+  height: 100%;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  border-radius: 4px;
+  padding: 0 9px;
+  cursor: pointer;
+  justify-content: center;
+  padding-top: 5px;
+  span {
+    margin-bottom: 3px;
+  }
+}
+
+.icon_wifi_song_battery:hover {
+  background: hsla(0, 0%, 100%, 0.8);
+}
+
+.hour {
+  text-align: center;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0 7px;
+  cursor: pointer;
+}
+.hour:hover {
+  background: hsla(0, 0%, 100%, 0.8);
 }
