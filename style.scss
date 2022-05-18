@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   background-position: 100%;
+  overflow-y: hidden;
 }
 
 section {
@@ -181,12 +182,13 @@ section {
     width: 100%;
     height: 12%;
     background-color: #eff4f9;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-size: 0.64em;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border-bottom: 1px solid #bbbbbb47;
   }
 }
 
@@ -257,11 +259,11 @@ section {
   }
   .copy_cut {
     height: 100%;
-    width: 20%;
+    width: 181px;
     justify-content: center;
     align-items: center;
-    display: flex;
     margin: 6px;
+    display: flex;
     figure {
       height: 68%;
       width: 28%;
@@ -286,12 +288,12 @@ section {
 
 .trie {
   height: 100%;
-  width: 16%;
+  width: 151px;
   border-left: 1px solid #0000003d;
   border-right: 1px solid #0000003d;
   align-content: center;
-  display: flex;
   padding: 0 9px;
+  display: flex;
   div {
     width: 50%;
     height: 100%;
@@ -308,4 +310,272 @@ section {
   align-items: center;
   display: flex;
   font-size: 13px;
+}
+
+.navigation_top {
+  /*     width: 260px; */
+  align-items: center;
+  display: flex;
+  height: 7%;
+}
+
+.navigation_top_left {
+  display: flex;
+}
+
+.border-input {
+  width: 72%;
+  height: 71%;
+  border: 1px solid #bbb;
+  align-items: center;
+  padding: 6px;
+  display: flex;
+  figure {
+    width: 15px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.border-input * {
+  margin: 3px;
+  font-size: 0.8em;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.navigation_top_left svg {
+  margin: 12px;
+}
+
+.input_search {
+  height: 71%;
+  margin: 0 10px;
+  width: 21%;
+  form {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    input {
+      width: 100%;
+      height: 100%;
+      padding-left: 33px;
+      outline: none;
+      font-size: inherit;
+      font-size: 0.75rem;
+      border: 1px solid #bbb;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    }
+    figure {
+      width: 13px;
+      position: absolute;
+      top: 28%;
+      left: 12px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.nav_folder {
+  width: 200px;
+  height: 77%;
+  border-right: 2px solid #ddd;
+  padding-top: 11px;
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.nav_folder_top {
+  height: 28%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_folder_stars {
+  height: 19px;
+  color: #222;
+  align-items: center;
+  gap: 5px;
+  margin: 3px 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 12.5px;
+  font-weight: 400;
+  display: flex;
+  svg {
+    width: 10px;
+    height: 10px;
+  }
+  figure {
+    height: 85%;
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.nav_folder_column {
+  height: 16%;
+  align-items: center;
+  gap: 5px;
+  margin: 3px 0;
+  display: flex;
+  figure {
+    height: 79%;
+    margin-left: 39px;
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.nav_folder_bottom_element {
+  display: flex;
+}
+
+.nav_folder_top_all {
+  height: calc(100% - 19px);
+  color: #222;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 45px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 12.5px;
+  font-weight: 400;
+  display: flex;
+}
+
+.nav_folder_bottom {
+  display: flex;
+  flex-direction: column;
+  height: 44%;
+  font-size: 12.5px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #222;
+  .this_pc {
+    height: 9%;
+    align-items: center;
+    gap: 5px;
+    margin: 3px 0;
+    display: flex;
+    svg {
+      width: 10px;
+      height: 10px;
+    }
+    figure {
+      height: 78%;
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.nav_folder_bottom_all {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_folder_bottom_element {
+  display: flex;
+  height: 3.5%;
+
+  align-items: center;
+  margin: 3px 0 3px 9px;
+}
+
+.nav_folder_bottom_element svg {
+  margin-right: 6px;
+  width: 10px;
+  height: 10px;
+}
+
+.nav_folder_bottom_element figure {
+  height: 79%;
+  width: 12%;
+  img {
+    height: 100%;
+  }
+}
+
+.disable {
+  display: none;
+}
+
+.fadesample {
+  animation-name: learn;
+  // which named animation?
+
+  animation-duration: 0.6s;
+  // how long?
+
+  // keep going?
+}
+
+@keyframes learn {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    scale: 0.9;
+  }
+}
+
+.black {
+  background-color: black;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.opacity_full {
+  opacity: 1;
+}
+
+.fadesample_open {
+  animation-name: learn_open;
+  // which named animation?
+
+  animation-duration: 0.6s;
+  // how long?
+
+  // keep going?
+}
+
+@keyframes learn_open {
+  from {
+    opacity: 0;
+    scale: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btn_white {
+  background: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.barre_blue {
+  background-color: #0067c0;
+  width: 12px;
+  height: 3px;
+  position: absolute;
+  bottom: 4px;
+  border-radius: 4px;
+  transition: all 1.2s ease-in-out;
+  content: "";
 }
