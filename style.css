@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -22,10 +22,10 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 section .user {
@@ -34,14 +34,14 @@ section .user {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 76px;
   height: 86px;
   margin: 4px;
@@ -57,8 +57,7 @@ section .user figure img {
 
 section .user div {
   color: #fafafa;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
   font-size: 0.8em;
   text-align: center;
@@ -76,11 +75,11 @@ section .user div {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
 }
 
@@ -89,8 +88,8 @@ section .user div {
   height: 48px;
   background-color: #f2f2f2d9;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,8 +98,8 @@ section .user div {
   padding-left: 15px;
   padding-right: 15px;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .bar_bottom .bar_nav_bottom {
@@ -110,8 +109,8 @@ section .user div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 38px;
   padding: 6px;
   border-radius: 4px;
@@ -143,8 +142,8 @@ section .user div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 38px;
   padding: 6px;
   border-radius: 4px;
@@ -162,8 +161,8 @@ section .user div {
   display: flex;
   height: 80%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bar_bottom_end figure {
@@ -181,8 +180,8 @@ section .user div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .battery::before {
@@ -193,8 +192,8 @@ section .user div {
 .icon_wifi_song_battery {
   height: 100%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,8 +202,8 @@ section .user div {
   padding: 0 9px;
   cursor: pointer;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 5px;
 }
 
@@ -219,8 +218,7 @@ section .user div {
 .hour {
   text-align: center;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 0.6875rem;
   font-weight: 400;
   height: 100%;
@@ -229,11 +227,11 @@ section .user div {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 4px;
   padding: 0 7px;
   cursor: pointer;
@@ -258,13 +256,12 @@ section .user div {
   background-color: #eff4f9;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 0.64em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,8 +272,8 @@ section .user div {
 .top_line {
   height: 32%;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0 0 0 0.4375rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,8 +286,8 @@ section .user div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .top_line figure {
@@ -305,10 +302,10 @@ section .user div {
   width: 9.375rem;
   height: 100%;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,8 +315,8 @@ section .user div {
   width: 33%;
   height: 100%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -341,8 +338,8 @@ section .user div {
 .top_bottom {
   height: 44%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 0.4375rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,8 +357,8 @@ section .user div {
   gap: 5px;
   border-right: #0000003d 1px solid;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .top_bottom .new figure {
@@ -377,11 +374,11 @@ section .user div {
   height: 100%;
   width: 181px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -395,8 +392,8 @@ section .user div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .top_bottom .copy_cut img {
@@ -412,11 +409,11 @@ section .user div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .trie {
@@ -425,7 +422,7 @@ section .user div {
   border-left: 1px solid #0000003d;
   border-right: 1px solid #0000003d;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   padding: 0 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,8 +444,8 @@ section .user div {
 
 .trie_align {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -458,8 +455,8 @@ section .user div {
 .navigation_top {
   /*     width: 260px; */
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -477,8 +474,8 @@ section .user div {
   height: 71%;
   border: 1px solid #bbb;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -497,8 +494,7 @@ section .user div {
 .border-input * {
   margin: 3px;
   font-size: 0.8em;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .navigation_top_left svg {
@@ -525,8 +521,7 @@ section .user div {
   font-size: inherit;
   font-size: 0.75rem;
   border: 1px solid #bbb;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .input_search form figure {
@@ -552,8 +547,8 @@ section .user div {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 14px;
 }
 
@@ -564,20 +559,19 @@ section .user div {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .nav_folder_stars {
   height: 19px;
   color: #222;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 5px;
   margin: 3px 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 12.5px;
   font-weight: 400;
   display: -webkit-box;
@@ -601,8 +595,8 @@ section .user div {
 .nav_folder_column {
   height: 16%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 5px;
   margin: 3px 0;
   display: -webkit-box;
@@ -630,14 +624,13 @@ section .user div {
   color: #222;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 45px;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 12.5px;
   font-weight: 400;
   display: -webkit-box;
@@ -651,21 +644,20 @@ section .user div {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 44%;
   font-size: 12.5px;
   font-weight: 400;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: #222;
 }
 
 .nav_folder_bottom .this_pc {
   height: 9%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 5px;
   margin: 3px 0;
   display: -webkit-box;
@@ -692,8 +684,8 @@ section .user div {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .nav_folder_bottom_element {
@@ -702,8 +694,8 @@ section .user div {
   display: flex;
   height: 3.5%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 3px 0 3px 9px;
 }
 
@@ -728,9 +720,9 @@ section .user div {
 
 .fadesample {
   -webkit-animation-name: learn;
-  animation-name: learn;
+          animation-name: learn;
   -webkit-animation-duration: 0.6s;
-  animation-duration: 0.6s;
+          animation-duration: 0.6s;
 }
 
 @-webkit-keyframes learn {
@@ -767,9 +759,9 @@ section .user div {
 
 .fadesample_open {
   -webkit-animation-name: learn_open;
-  animation-name: learn_open;
+          animation-name: learn_open;
   -webkit-animation-duration: 0.6s;
-  animation-duration: 0.6s;
+          animation-duration: 0.6s;
 }
 
 @-webkit-keyframes learn_open {
